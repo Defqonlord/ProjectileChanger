@@ -67,7 +67,7 @@ public class ProjectileChangerPlugin extends Plugin
 				replacement = INFERNO_RANGE;
 			}
 
-			System.out.println("Head Range Attack");
+			//System.out.println("Head Range Attack");
 			Projectile p = client.createProjectile(replacement,
 					projectile.getFloor(),
 					projectile.getX1(), projectile.getY1(),
@@ -91,7 +91,7 @@ public class ProjectileChangerPlugin extends Plugin
 			{
 				replacement = LEVI_MAGE;
 			}
-			System.out.println("Head Mage Attack");
+			//System.out.println("Head Mage Attack");
 			Projectile p = client.createProjectile(replacement,
 					projectile.getFloor(),
 					projectile.getX1(), projectile.getY1(),
